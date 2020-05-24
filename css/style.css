@@ -1,0 +1,166 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    width: 1100px;
+/*    overflow: hidden;*/
+    max-height: 1150px;
+    max-width: 1360px;
+    
+}
+
+.container{
+    overflow: hidden;
+    max-height: 1650px;
+}
+
+h4, p,a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.person{
+    margin-top: 100px;
+}
+.inter{
+    text-align: left;
+    padding-left: 40px;
+}
+.inter i{
+    font-size: 1em;
+    padding-right: 5px;
+}
+
+p{
+    margin: 0;
+}
+
+.fa{
+    color: #536363;
+    font-size: 2.5em;
+    margin-bottom:10px;
+/*    margin-top:50px;*/
+}
+
+a{
+    text-decoration: none;
+    color: #635700;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #536363;
+    font-size: 1.1em;
+}
+
+
+#kol-1{
+    width: 350px;
+    background-color: #dddddd;
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+
+#kol-1 img{
+    width: 300px;
+    border-radius: 5%;
+    margin-bottom: 40px;
+    transform: rotate(90deg);
+}
+
+#kol-2{
+    position: relative;
+    left: 350px;
+    bottom: 1750px;
+    margin-left: 50px;
+    margin-top: 85px;
+    width: 700px;
+}
+
+
+h1{
+    font-size: 2.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1 span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.kreska{
+    border: 1px solid;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+ul{
+    padding: 3px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+#kol-2 p span{
+    font-weight: 600;
+}
+
+#kol-2 ul li p span{
+    color: gray;
+}
+
+
+
+.skills .umie{
+    display: inline-block;
+/*    width: 340px;*/
+}
+
+.skills .umie p{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skills .umie p i {
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+
+#kol-2 #eng span{
+    color: black;
+}
+
+
+.zgoda{
+    margin-top: 90px;
+    font-size: 0.9em;
+    color: #536363;
+}
+.spann{
+    margin-bottom: 300px;
+}
+.gruba{
+/*    font-size: 0.9em;*/
+}
+.kierunek{
+    color: #536363;
+/*    font-style: italic;*/
+}
+.doswiadczenie{
+/*    font-style: oblique;*/
+    font-weight: 500;
+}
+.jezyki_box{
+    display: flex;
+    flex-direction: row;
+/*    flex-wrap: wrap;*/
+    
+}
+.jezyk{
+    width: 40%;
+}
